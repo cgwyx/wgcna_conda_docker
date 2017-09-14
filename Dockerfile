@@ -13,7 +13,7 @@ RUN conda config --add channels defaults &&\
     conda config --add channels bioconda &&\
     conda update --all -y &&\
     conda install -y r-wgcna=1.51 &&\
-    conda install -y mice
+    conda install -y -c luke-mino-altherr r-mice 
 
 CMD ["/bin/bash"]
 
