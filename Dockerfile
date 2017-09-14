@@ -3,7 +3,7 @@
 # File Author / Maintainer: cheng gong <512543469@qq.com>
 #################################################################
 
-FROM cgwyx/conda_debian_git
+FROM continuumio/miniconda
 
 MAINTAINER cheng gong <512543469@qq.com>
 
